@@ -31,6 +31,7 @@ gem "sass", "3.2.19"
 gem "config"
 gem "dotenv-rails"
 gem "bower-rails"
+gem "angular-rails-templates"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 3.0"
 # Use ActiveModel has_secure_password
@@ -47,6 +48,10 @@ group :test, :development do
   gem "faker"
   gem "sendgrid-ruby", "1.1.5"
   gem "better_errors"
+  gem "rspec-rails"
+  gem "capybara"
+  gem "database_cleaner"
+  gem "selenium-webdriver"
 end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
